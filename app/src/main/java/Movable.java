@@ -10,10 +10,10 @@ to move all three of its Points. HOWEVER, both jump methods are inherited from t
 public interface Movable {
 
 	//Move the object to an arbitrary location on a grid, providing an x and y coordinate
-	boolean jump(int x, int y);	
+	void jump(int x, int y);	
 	
 	//Shift the object a certain number of points on the grid, given said points and a direction d (see enum type below)
-	boolean shift(int places, Direction d);
+	void shift(int places, Direction d);
 
 }
 

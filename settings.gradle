@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = 'InterfaceExamples'
-include('lib')
+include('app')
