@@ -18,3 +18,4 @@ public interface Movable {
 }
 
 enum Direction { UP, DOWN, LEFT, RIGHT }
+enum Quadrant { Q1, Q2, Q3, Q4, ORIGIN, X_AXIS, Y_AXIS}
